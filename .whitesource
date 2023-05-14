@@ -1,25 +1,13 @@
 {
   "scanSettings": {
     "configMode": "AUTO",
-    "configExternalURL": "",
-    "projectToken": "",
+    "enableLicenseViolations": true,
     "baseBranches": []
-  },
-  "scanSettingsSAST": {
-    "enableScan": false,
-    "scanPullRequests": false,
-    "incrementalScan": true,
-    "baseBranches": [],
-    "snippetSize": 10
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true
-  },
-  "checkRunSettingsSAST": {
-    "checkRunConclusionLevel": "failure",
-    "severityThreshold": "high"
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
