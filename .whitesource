@@ -2,12 +2,15 @@
   "scanSettings": {
     "configMode": "AUTO",
     "enableLicenseViolations": true,
-    "baseBranches": []
+    "baseBranches": [],
+	"javaVersion": 11,
+	"cloneSubmodules": true
   },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "success",
-    "displayMode": "diff",
-    "useMendCheckNames": true
+    "displayMode": "baseline",
+    "useMendCheckNames": true,
+	"licenseCheckRunConclusionLevel": failure
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
